@@ -1,0 +1,12 @@
+[project]
+name = "market-data-feed-quality-gate"
+version = "0.1.0"
+description = "Public-safe market data feed quality gate for sequencing, timestamp sanity, stale-feed detection, and operator verdicts."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Shaw Signal Dev" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
